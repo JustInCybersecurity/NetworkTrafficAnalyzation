@@ -1,0 +1,11 @@
+sudo tcpdump -#XXtttt host skyroute66.com -c 10 -w captured.pcap\
+
+
+<!--
+XX is for side-by-side hexidecimal and ascii format within the terminal, not actually needed if using Wireshark
+tttt is for human readable time, not actually needed fi using Wireshark
+c is the counter, how many packets you want captured
+10 is the interval, 10 packets to be captured
+-w is the comman to write to a file
+.pcap is the standard packat packet file type
+--!>
