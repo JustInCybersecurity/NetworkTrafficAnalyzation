@@ -1,4 +1,4 @@
-sudo tcpdump -#XXtttt host skyroute66.com -c 10 -w captured.pcap\
+sudo tcpdump -#XXtttt host skyroute66.com -c 10 -w captured.pcap
 
 
 <!--
